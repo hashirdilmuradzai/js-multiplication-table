@@ -1,23 +1,24 @@
 # JavaScript Multiplication Table
 
-A beginner JavaScript assignment that generates a multiplication table using a loop.
+A beginner JavaScript assignment that generates the multiplication table of any number entered by the user.
 
 ## Features
 
-- Generate the multiplication table of a number
-- Display the table from **1 to 12**
-- Use a `for` loop
-- Accept user input using `prompt()` (Bonus)
+- Accept any number using `prompt()`
+- Generate the multiplication table from **1 to 10**
+- Display the result using a `for` loop
+- Dynamic table generation based on user input
 
-## Example Output
+## Example
 
 ```text
-5 x 1 = 5
-5 x 2 = 10
-5 x 3 = 15
-5 x 4 = 20
+Enter a number: 7
+
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
 ...
-5 x 12 = 60
+7 x 10 = 70
 ```
 
 ## Technologies Used
@@ -35,4 +36,4 @@ A beginner JavaScript assignment that generates a multiplication table using a l
 
 ## Purpose
 
-This project was created to practice JavaScript loops, user input, and generating a multiplication table dynamically.
+This project was created to practice JavaScript loops, user input, and dynamically generating a multiplication table for any number.
