@@ -1,8 +1,8 @@
-let number = Number(prompt("Enter Your Number"));
+let tableOf = Number(prompt("Enter a number"));
 let result = "";
 
-for (let i = 1; i <= 10; i++) {
-  result += number + " x " + i + " = " + number * i + "\n";
+for (let i = 1; i <= 12; i++) {
+  result += tableOf + " x " + i + " = " + tableOf * i + "\n";
 }
 
 alert(result);
